@@ -1,0 +1,15 @@
+Name: Jayesh Parsnani
+Id: 1001964955
+
+Programming language used: Python
+
+For task1:
+    Import agrv is ued for command line argument.
+    First obesrvation is calculated and the posterior probability is calculated.
+    Initially, prob for both the candy is 0.5 and then it is changed after every observation of the candy.
+
+For task2:
+    I've separated funtions in different files.
+    If given is present(conditional probability), then required terms is calculated. If required term has parent then its parent value and Required term each false and true value is considered and added in final answer.
+    If given is not present then calculate required term and its parent and then add in the final answer.
+    Eg: if there are 2 reqd terms then there will be 4 Values which will be added.{TT,FF,TF,FT for each term}
